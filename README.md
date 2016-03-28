@@ -8,12 +8,12 @@ Optimized for game- and graphic design projects.
 ![Lumio](https://raw.githubusercontent.com/arcticicestudio/lumio/master/src/main/native/lumio.png)
 
 ### Version
-[`0.0.0`](https://github.com/arcticicestudio/lumio-java/releases/latest)
+[`0.1.0`](https://github.com/arcticicestudio/lumio-java/releases/latest)
 
 For older versions check out the [GitHub Repository](https://github.com/arcticicestudio/lumio-java/releases) or [official website](http://arcticicestudio.com/lumio) (actually under construction).
 
 ### Changelog
-[`0.0.0`](CHANGELOG.md)
+[`0.1.0`](CHANGELOG.md)
 
 ### Development
 #### Workflow

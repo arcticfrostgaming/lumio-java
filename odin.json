@@ -1,10 +1,10 @@
 {
   "id": "lumio-java",
   "name": "Lumio - Java",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "date": {
    "created": "2016-01-25 14:15 UTC+0100",
-   "updated": "2016-03-28 21:20 UTC+0200"
+   "updated": "2016-03-28 21:35 UTC+0200"
   },
   "access": "public",
   "modularity": "subproject",

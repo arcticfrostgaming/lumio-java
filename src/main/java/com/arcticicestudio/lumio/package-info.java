@@ -3,7 +3,7 @@
 title     Lumio - Java - Package Info     +
 project   lumio-java                      +
 file      package-info.java               +
-version                                   +
+version   0.1.0                           +
 author    Arctic Ice Studio               +
 email     development@arcticicestudio.com +
 website   http://arcticicestudio.com      +
