@@ -5,15 +5,15 @@ Lumio - Java
 Java library of the warm pastel color palette [Lumio](https://github.com/arcticicestudio/lumio) which focuses to create a steamed, but colorful comic-like ambiance.  
 Optimized for game- and graphic design projects.
 
-![Lumio](https//.github.com/arcticicestudio/lumio/blob/master/src/main/native/lumio.png)
+![Lumio](https://raw.githubusercontent.com/arcticicestudio/lumio/master/src/main/native/lumio.png)
 
 ### Version
-[`-`](https://github.com/arcticicestudio/lumio-java/releases/latest)
+[`0.0.0`](https://github.com/arcticicestudio/lumio-java/releases/latest)
 
 For older versions check out the [GitHub Repository](https://github.com/arcticicestudio/lumio-java/releases) or [official website](http://arcticicestudio.com/lumio) (actually under construction).
 
 ### Changelog
-[`-`](CHANGELOG.md)
+[`0.0.0`](CHANGELOG.md)
 
 ### Development
 #### Workflow
