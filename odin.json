@@ -1,0 +1,52 @@
+{
+  "id": "lumio-java",
+  "name": "Lumio - Java",
+  "version": "",
+  "date": {
+   "created": "2016-01-25 14:15 UTC+0100",
+   "updated": ""
+  },
+  "access": "public",
+  "modularity": "subproject",
+  "description": "Java library of the warm pastel color palette Lumio which focuses to create a steamed, but colorful comic-like ambiance. Optimized for game- and graphic design projects.",
+  "website": "http://arcticicestudio.com/lumio",
+  "author": {
+    "name": "Arctic Ice Studio",
+    "email": "development@arcticicestudio.com",
+    "website": "http://arcticicestudio.com",
+    "GitHub": "https://github.com/arcticicestudio",
+    "Twitter": "https://twitter.com/arcticicestudio",
+    "Reddit": "https://reddit.com/user/arcticicestudio"
+  },
+  "repository": {
+    "localpath": "~/yggdrasil/Lumio/lumio-java",
+    "url": "https://github.com/arcticicestudio/lumio-java"
+  },
+  "bugs": {
+    "url": "https://github.com/arcticicestudio/lumio-java/issues",
+    "email": "bugs@arcticicestudio.com"
+  },
+  "engines": [],
+  "devEngines": [
+    {"id": "odin","version": "0.1.0","manager": "odin"}
+  ],
+  "specifications": [
+    {"id": "arcver","version": "0.8.0","manager": "odin"}
+  ],
+  "dependencies": [],
+  "devDependencies": [
+    {"id": "git","version": "2.*.*","manager": "pacman"},
+    {"id": "lumio","version": "1.0.0","manager": "odin"},
+    {"id": "glacier-apache-ant","version": "0.11.0","manager": "odin"},
+    {"id": "glacier-git","version": "0.19.0","manager": "odin"}
+  ],
+  "contributors": [
+    {"name": "Arctic Ice Studio","email": "development@arcticicestudio.com"}
+  ],
+  "copyright": "Copyright (C) 2016 Arctic Ice Studio <development@arcticicestudio.com>",
+  "license": [
+    {"name": "GPL-3.0","file": "LICENSE.md"},
+    {"name": "CC-BY-NC-SA-4.0","file": "LICENSE.md"}
+  ],
+  "tags": ["lumio","java","warm","pastel","steam","colorful","comic","ambiance","game","graphic","design"]
+}
