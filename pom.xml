@@ -4,7 +4,7 @@
 title     POM                             +
 project   lumio-java                      +
 file      pom.xml                         +
-version                                   +
+version   0.2.0                           +
 author    Arctic Ice Studio               +
 email     development@arcticicestudio.com +
 copyright Copyright (C) 2016              +
@@ -78,7 +78,7 @@ Glacier Apache Maven Project
       +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +-->
   <groupId>com.arcticicestudio</groupId>
   <artifactId>lumio-java</artifactId>
-  <version>0.1.0</version>
+  <version>0.2.0</version>
   <packaging>jar</packaging>
   <!--+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [1]-+-->
 

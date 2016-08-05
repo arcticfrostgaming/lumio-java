@@ -2,7 +2,7 @@
 # title     Travis CI Build Configuration   +
 # project   lumio-java                      +
 # file      .travis.yml                     +
-# version                                   +
+# version   0.2.0                           +
 # author    Arctic Ice Studio               +
 # email     development@arcticicestudio.com +
 # copyright Copyright (C) 2016              +
@@ -42,7 +42,7 @@
 # +----------------------------------------------------------------------------+
 # Sets the language environment.
 #
-# @since 0.3.0
+# @since 0.2.0
 language: java
 # +----------------------------------------------------------------------[1.0]-+
 
@@ -51,7 +51,7 @@ language: java
 # +----------------------------------------------------------------------------+
 # The JDK versions to test again.
 #
-# @since 0.3.0
+# @since 0.2.0
 jdk:
   - oraclejdk8
 # +----------------------------------------------------------------------[1.1]-+
@@ -61,7 +61,7 @@ jdk:
 # +----------------------------------------------------------------------------+
 # Defines the usage of a sudo'ed environment.
 #
-# @since 0.3.0
+# @since 0.2.0
 sudo: false
 # +----------------------------------------------------------------------[1.2]-+
 
@@ -72,7 +72,7 @@ sudo: false
 # This is especially useful for dependencies that need to be downloaded and/or
 # compiled from source.
 #
-# @since 0.3.0
+# @since 0.2.0
 cache:
  directories:
     - $HOME/.m2
@@ -87,7 +87,7 @@ cache:
 # +----------------------------------------------------------------------------+
 # Sets script command to be executed.
 #
-# @since 0.3.0
+# @since 0.2.0
 script: mvn -B test -P code-coverage
 # +----------------------------------------------------------------------[2.0]-+
 # +------------------------------------------------------------------------[2]-+
@@ -100,14 +100,14 @@ script: mvn -B test -P code-coverage
 # +----------------------------------------------------------------------------+
 # Executes specified commands after the build exited successfully.
 #
-# @since 0.3.0
+# @since 0.2.0
 after_success:
   # +----------------------------------------------------------------------------+
   # + Hooks - After Success - codecov-io (codecov-bash)                  [3.0.0] +
   # +----------------------------------------------------------------------------+
   # Triggers the codecov.io bash script.
   #
-  # @since 0.3.0
+  # @since 0.2.0
   - bash <(curl -s https://codecov.io/bash)
   # +--------------------------------------------------------------------[3.0.0]-+
 # +----------------------------------------------------------------------[3.0]-+
