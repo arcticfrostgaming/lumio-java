@@ -78,7 +78,7 @@ Glacier Apache Maven Project
       +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +-->
   <groupId>com.arcticicestudio</groupId>
   <artifactId>lumio-java</artifactId>
-  <version>0.2.0</version>
+  <version>0.3.0-SNAPSHOT</version>
   <packaging>jar</packaging>
   <!--+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [1]-+-->
 
