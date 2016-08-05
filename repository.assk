@@ -1,3 +1,0 @@
-build/{assembly,dist}
-{build,src}/{main,scratch,test}/{assets,java/com/arcticicestudio/lumio,native,resources/media}
-lib/{main,test}/java/vendor
