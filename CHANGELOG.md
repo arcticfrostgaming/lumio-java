@@ -1,5 +1,4 @@
-Lumio - Java
-============
+<img align="center" src="https://raw.githubusercontent.com/arcticicestudio/lumio-java/develop/src/main/assets/media/lumio-java-banner.png" alt="Lumio Java"/>
 
 ## 0.1.0 (2016-03-28)
 ### Features
