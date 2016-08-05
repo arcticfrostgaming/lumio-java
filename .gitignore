@@ -1,18 +1,17 @@
-# +++++++++++++++++++++++++++++++++++++++++++++
-# title     Lumio - Java - Git Ignore Pattern +
-# project   lumio-java                        +
-# file      .gitignore                        +
-# version   0.1.0                             +
-# author    Arctic Ice Studio                 +
-# email     development@arcticicestudio.com   +
-# copyright Copyright (C) 2016                +
-# created   2016-01-25 14:15 UTC+0100         +
-# modified  2016-03-28 17:04 UTC+0200         +
-# +++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++++++++++++++++
+# title     Git Ignore Pattern              +
+# project   lumio-java                      +
+# file      .gitignore                      +
+# version   0.1.0                           +
+# author    Arctic Ice Studio               +
+# email     development@arcticicestudio.com +
+# copyright Copyright (C) 2016              +
+# created   2016-01-25 14:15 UTC+0100       +
+# modified  2016-08-05 09:06 UTC+0200       +
+# +++++++++++++++++++++++++++++++++++++++++++
 #
 # [Description]
-# Git dotfile providing file attribute handling for the git-based "Lumio - Java" project.
-# Based on the Git Ignore Pattern Dotfile of the "Glacier - Git" project (glacier-git@0.19.0).
+# Provides git ignore pattern based on the skeleton file of the "glacier-git@0.25.0" project.
 #
 # [Index]
 #   (1) Project Environment
@@ -57,15 +56,6 @@
 #     (6.1) SVN
 #     (6.2) Mercurial
 #   (7) Project Specific Configuration
-#     (7.0) Arctic Project Structure
-#       (7.0.0) Structure Skeleton
-#
-# [Dependencies]
-# Development
-#   Engines
-#     - git@2.*.* (http://git-scm.com)
-#   Skeletons
-#     - glacier-git@0.19.0 (https://github.com/arcticicestudio/glacier-git)
 #
 # [Copyright]
 # Copyright (C) 2016 Arctic Ice Studio <development@arcticicestudio.com>
@@ -197,6 +187,7 @@ build-secure.properties
 # + Project Environment - Build Tool - Apache Maven 3                  [1.3.3] +
 # +----------------------------------------------------------------------------+
 target/
+pom-secure.properties
 # +--------------------------------------------------------------------[1.3.3]-+
 # +----------------------------------------------------------------------[1.3]-+
 
@@ -374,14 +365,4 @@ hs_log_pid*
 # +----------------------------------------------------------------------------+
 # + Project Specific Configuration                                         [7] +
 # +----------------------------------------------------------------------------+
-# +----------------------------------------------------------------------------+
-# + Project Specific Configuration - Arctic Project Structure            [7.0] +
-# +----------------------------------------------------------------------------+
-# +----------------------------------------------------------------------------+
-# + Project Specific Configuration - Arctic Project Structure -                +
-# + Structure Skeleton                                                 [7.0.0] +
-# +----------------------------------------------------------------------------+
-
-# +--------------------------------------------------------------------[7.0.0]-+
-# +----------------------------------------------------------------------[7.0]-+
 # +------------------------------------------------------------------------[7]-+

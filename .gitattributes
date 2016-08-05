@@ -1,18 +1,17 @@
-# ++++++++++++++++++++++++++++++++++++++++++++++
-# title     Lumio - Java - Git File Attributes +
-# project   lumio-java                         +
-# file      .gitattributes                     +
-# version   0.1.0                              +
-# author    Arctic Ice Studio                  +
-# email     development@arcticicestudio.com    +
-# copyright Copyright (C) 2016                 +
-# created   2016-01-25 14:15 UTC+0100          +
-# modified  2016-03-28 17:41 UTC+0200          +
-# ++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++++++++++++++++
+# title     Git File Attributes             +
+# project   lumio-java                      +
+# file      .gitattributes                  +
+# version   0.1.0                           +
+# author    Arctic Ice Studio               +
+# email     development@arcticicestudio.com +
+# copyright Copyright (C) 2016              +
+# created   2016-01-25 14:15 UTC+0100       +
+# modified  2016-08-05 09:03 UTC+0200       +
+# +++++++++++++++++++++++++++++++++++++++++++
 #
 # [Description]
-# Git dotfile providing file attribute handling for the git-based "Lumio - Java" project.
-# Based on the Git  File Attributes Dotfile of the "Glacier - Git" project (glacier-git@0.19.0).
+# Provides git file attribute handling based on the skeleton file of the "glacier-git@0.25.0" project.
 #
 # [Index]
 #   (1.0) git
@@ -57,13 +56,6 @@
 #     (4.0) Text
 #       (4.0.0) Plain
 #   (5) Project Specific Configuration
-#
-# [Dependencies]
-# Development
-#   Engines
-#     - git@2.*.* (http://git-scm.com)
-#   Skeletons
-#     - glacier-git@0.19.0 (https://github.com/arcticicestudio/glacier-git)
 #
 # [Copyright]
 # Copyright (C) 2016 Arctic Ice Studio <development@arcticicestudio.com>
