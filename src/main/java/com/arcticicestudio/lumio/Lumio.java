@@ -40,7 +40,7 @@ import java.util.regex.Pattern;
  * <a href="https://github.com/arcticicestudio/lumio">Lumio</a> color palette
   * as enumeration of the <a href="https://github.com/arcticicestudio/lumio-java">Lumio - Java</a> project.
  * <div>
- *   <table style="display:inline-block">
+ *   <table style="display:inline-block" summary="Lumio Color Palette">
  *     <tbody>
  *       <tr>
  *         <td id="dark-livid-wood" style="border:none;width:25px;height:30px;background-color:rgb(36, 28, 28);margin: 0"></td>
@@ -198,7 +198,7 @@ import java.util.regex.Pattern;
  *   </table>
  * </div>
  *
- * @author Arctic Ice Studio <development@arcticicestudio.com>
+ * @author Arctic Ice Studio &lt;development@arcticicestudio.com&gt;
  * @see <a href="https://github.com/arcticicestudio/lumio">"Lumio" GitHub Repository</a>
  * @see <a href="https://github.com/arcticicestudio/lumio-java">"Lumio - Java" GitHub Repository</a>
  * @since 0.1.0
