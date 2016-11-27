@@ -40,7 +40,7 @@ import static org.junit.Assert.assertEquals;
  * JUnit test class for the {@link Lumio} class of the
  * <a href="https://github.com/arcticicestudio/lumio-java">Lumio - Java</a> API.
  *
- * @author Arctic Ice Studio <development@arcticicestudio.com>
+ * @author Arctic Ice Studio &lt;development@arcticicestudio.com&gt;
  * @see Lumio
  * @see <a href="http://junit.org/">http://junit.org/</a>
  * @see <a href="https://github.com/arcticicestudio/lumio-java">Lumio - Java</a>

@@ -41,7 +41,7 @@ Arctic Versioning Specification
  *   The main entry point of the package is the {@link com.arcticicestudio.lumio.Lumio} class.
  * </p>
  *
- * @author Arctic Ice Studio <development@arcticicestudio.com>
+ * @author Arctic Ice Studio &lt;development@arcticicestudio.com&gt;
  * @see <a href="https://github.com/arcticicestudio/lumio-java">Lumio - Java</a>
  * @see <a href="https://github.com/arcticicestudio/lumio">Lumio</a>
  * @version 0.2.0
