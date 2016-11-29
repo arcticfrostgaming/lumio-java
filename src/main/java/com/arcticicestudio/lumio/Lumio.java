@@ -1,11 +1,12 @@
 /*
-+++++++++++++++++++++++++++++++++++++++++++
-title     Lumio Public API                +
-project   lumio-java                      +
-author    Arctic Ice Studio               +
-email     development@arcticicestudio.com +
-copyright Copyright (C) 2016              +
-+++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Lumio Public API Unit Test                    +
+project    lumio-java                                    +
+repository https://github.com/arcticicestudio/lumio-java +
+author     Arctic Ice Studio                             +
+email      development@arcticicestudio.com               +
+copyright  Copyright (C) 2016                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 */
 package com.arcticicestudio.lumio;
 
