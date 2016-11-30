@@ -900,6 +900,8 @@ public enum Lumio {
    */
   private final Color color;
 
+  private static final String VERSION = "0.2.0";
+
   /**
    * Constructs a new color object.
    *
@@ -947,5 +949,15 @@ public enum Lumio {
    */
   public Color get() {
     return color;
+  }
+
+  /**
+   * Returns the <a href="https://github.com/arcticicestudio/arcver">ArcVer</a> version of the public API.
+   *
+   * @return the ArcVer version string
+   * @see <a href="http://semver.org">SemVer</a>
+   */
+  public static String getVersion() {
+    return VERSION;
   }
 }
