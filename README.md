@@ -46,6 +46,21 @@ mvn clean install -Dgpg.keyname=YourGPGKeyId
 
 Continuous integration builds are running at [Travis-CI](https://travis-ci.org/arcticicestudio/lumio-java) and [Circle CI](https://circleci.com/bb/arcticicestudio/lumio-java).
 
+## Usage Guide
+This is a basic guide to show the common usage of the lumio-java API.  
+The API documentation can be found in the JavaDoc.
+
+The `Lumio` class is the entrypoint to the lumio-java API to generate HEX- and RGB color codes.
+  1. [Generate color code strings](#generate-color-code-strings)
+
+### Generate color code strings
+YColor code strings can be generated from all `Lumio` enum constants by using the static methods `hex(Color)` and `rgb(Color)`.  
+The `Color` object can be obtained from a `Lumio` enum constant via the `get()` method.  
+```java
+String hex = Lumio.hex(Lumio.LUMIO0.get()); // "#241C1C"
+String rgb = Lumio.rgb(Lumio.LUMIO29.get()); // "rgb(4, 128, 164)"
+```
+
 ## Development
 [![](https://img.shields.io/badge/Changelog-0.2.0-blue.svg)](https://github.com/arcticicestudio/lumio-java/blob/v0.2.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow_Branching_Model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
 
