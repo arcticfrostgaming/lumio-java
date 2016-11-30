@@ -898,27 +898,27 @@ public enum Lumio {
   /**
    * The RGB color code.
    */
-  private final Color COLOR;
+  private final Color color;
 
   /**
    * Constructs a new color object.
    *
-   * @param RED the value for the additive primary color {@code red}
-   * @param GREEN the value for the additive primary color {@code green}
-   * @param BLUE the value for the additive primary color {@code blue}
+   * @param red the value for the additive primary color {@code red}
+   * @param green the value for the additive primary color {@code green}
+   * @param blue the value for the additive primary color {@code blue}
    */
-  Lumio(final int RED, final int GREEN, final int BLUE) {
-    COLOR = Color.rgb(RED, GREEN, BLUE);
+  Lumio(final int red, final int green, final int blue) {
+    color = Color.rgb(red, green, blue);
   }
 
   /**
    * Converts the specified color to the RGB identifier.
    *
-   * @param COLOR the color object to convert
+   * @param color the color object to convert
    * @return a string representation of the RGB identifier
    */
-  public static String rgb(final Color COLOR) {
-    String hex = COLOR_PREFIX.matcher(COLOR.toString()).replaceAll("");
+  public static String rgb(final Color color) {
+    String hex = COLOR_PREFIX.matcher(color.toString()).replaceAll("");
     String hexRed = hex.substring(0, 2).toUpperCase();
     String hexGreen = hex.substring(2, 4).toUpperCase();
     String hexBlue = hex.substring(4, 6).toUpperCase();
@@ -933,19 +933,19 @@ public enum Lumio {
   /**
    * Converts the specified color to the HEX identifier.
    *
-   * @param COLOR the color object to convert
+   * @param color the color object to convert
    * @return a string representation of the HEX identifier
    */
-  public static String hex(final Color COLOR) {
-    return COLOR_PREFIX.matcher(COLOR.toString()).replaceAll("#").substring(0, 7).toUpperCase();
+  public static String hex(final Color color) {
+    return COLOR_PREFIX.matcher(color.toString()).replaceAll("#").substring(0, 7).toUpperCase();
   }
 
   /**
-   * Returns the color object.
+   * The color constant as color object.
    *
    * @return the color object
    */
   public Color get() {
-    return COLOR;
+    return color;
   }
 }
