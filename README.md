@@ -50,15 +50,22 @@ Continuous integration builds are running at [Travis-CI](https://travis-ci.org/a
 This is a basic guide to show the common usage of the lumio-java API.  
 The API documentation can be found in the JavaDoc.
 
-The `Lumio` class is the entrypoint to the lumio-java API to generate HEX- and RGB color codes.
+The `Lumio` class is the entry point to the lumio-java API to generate HEX- and RGB color codes.
   1. [Generate color code strings](#generate-color-code-strings)
+  2. [Obtaining the Public API version](#obtaining-the-public-api-version)
 
 ### Generate color code strings
-YColor code strings can be generated from all `Lumio` enum constants by using the static methods `hex(Color)` and `rgb(Color)`.  
+Color code strings can be generated from all `Lumio` enum constants by using the static methods `hex(Color)` and `rgb(Color)`.  
 The `Color` object can be obtained from a `Lumio` enum constant via the `get()` method.  
 ```java
 String hex = Lumio.hex(Lumio.LUMIO0.get()); // "#241C1C"
 String rgb = Lumio.rgb(Lumio.LUMIO29.get()); // "rgb(4, 128, 164)"
+```
+
+### Obtaining the Public API version
+The `getVersion()` method returns the [ArcVer](https://github.com/arcticicestudio/arcver) version of the public API.
+```java
+String version = Nord.getVersion(); // "0.2.0"
 ```
 
 ## Development
