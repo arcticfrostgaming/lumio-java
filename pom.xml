@@ -125,6 +125,13 @@ JFrog Bintray
       <version>1.3</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>com.arcticicestudio</groupId>
+      <artifactId>arcver-java</artifactId>
+      <version>0.11.0-SNAPSHOT</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <build>

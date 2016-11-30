@@ -10,8 +10,10 @@ copyright  Copyright (C) 2016                            +
 */
 package com.arcticicestudio.lumio;
 
+import com.arcticicestudio.arcver.Version;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 /**
  * Unit tests for the "Lumio Java" public API.
@@ -302,5 +304,10 @@ public class LumioTest {
     assertEquals(Lumio.rgb(Lumio.LUMIO78.get()), "rgb(127, 85, 131)");
     assertEquals(Lumio.rgb(Lumio.LUMIO79.get()), "rgb(151, 94, 149)");
     assertEquals(Lumio.rgb(Lumio.LUMIO80.get()), "rgb(171, 98, 156)");
+  }
+
+  @Test
+  public void shouldReturnCorrectArcVerVersion() {
+    assertTrue(Version.valueOf(Lumio.getVersion()).satisfies("0.2.0"));
   }
 }
