@@ -156,7 +156,7 @@ import java.util.regex.Pattern;
  * </div>
  *
  * @author Arctic Ice Studio &lt;development@arcticicestudio.com&gt;
- * @version 0.2.0
+ * @version 0.3.0
  * @since 0.1.0
  */
 public enum Lumio {
@@ -900,7 +900,7 @@ public enum Lumio {
    */
   private final Color color;
 
-  private static final String VERSION = "0.2.0";
+  private static final String VERSION = "0.3.0";
 
   /**
    * Constructs a new color object.
