@@ -53,8 +53,6 @@ This also includes a new [Usage Guide](https://github.com/arcticicestudio/lumio-
 ### Toolbox
 Created a `circle.yml` configuration file to add [Circle CI](https://circleci.com) build integration. (@arcticicestudio, #2, 42d57c19)
 
-
-
 # 0.2.0 (2016-08-05)
 This version is mainly focused on a [Apache Maven](https://maven.apache.org) migration.
 Release and snapshot versions are now deployed to the [Central Repository](https://search.maven.org) via [OSS Sonatype](https://oss.sonatype.org).

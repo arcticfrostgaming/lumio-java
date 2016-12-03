@@ -65,7 +65,7 @@ String rgb = Lumio.rgb(Lumio.LUMIO29.get()); // "rgb(4, 128, 164)"
 ### Obtaining the Public API version
 The `getVersion()` method returns the [ArcVer](https://github.com/arcticicestudio/arcver) version of the public API.
 ```java
-String version = Nord.getVersion(); // "0.3.0"
+String version = Lumio.getVersion(); // "0.3.0"
 ```
 
 ## Development
