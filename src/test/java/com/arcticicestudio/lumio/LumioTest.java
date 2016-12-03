@@ -308,6 +308,6 @@ public class LumioTest {
 
   @Test
   public void shouldReturnCorrectArcVerVersion() {
-    assertTrue(Version.valueOf(Lumio.getVersion()).satisfies("0.2.0"));
+    assertTrue(Version.valueOf(Lumio.getVersion()).satisfies("0.3.0"));
   }
 }
